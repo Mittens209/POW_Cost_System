@@ -1,52 +1,48 @@
-Project info
+## How to Use This Application After Downloading from GitHub
 
-How can I edit this code?
+Follow these steps to set up and run the application locally:
 
-There are several ways of editing the application:
+### 1. Clone the Repository
 
-1. Work locally with your IDE
-
-If you want to work on your machine:
-
-# Step 1: Clone the repository
+```bash
 git clone <YOUR_GIT_URL>
+```
 
-# Step 2: Navigate to the project folder
+### 2. Navigate to the Project Directory
+
+```bash
 cd <YOUR_PROJECT_NAME>
+```
 
-# Step 3: Install the dependencies
+### 3. Install Dependencies
+
+```bash
 npm install
+```
 
-# Step 4: Run the development server
+### 4. Start the Development Server
+
+```bash
 npm run dev
+```
 
+The application will be available at [http://localhost:5173](http://localhost:5173) with hot reload enabled.
 
-This starts a Vite development server with hot reload at http://localhost:5173.
+---
 
-2. Edit directly in GitHub
+## Alternative Ways to Edit the Application
 
-Open the repository in GitHub.
+- **Directly in GitHub:**  
+    Open the repository, navigate to the desired file, click the ✏️ (pencil) icon, make changes, and commit.
 
-Navigate to the file you want to edit.
+- **GitHub Codespaces (optional):**  
+    Go to your repository, click `Code → Codespaces → New codespace`, and edit/run the project in the cloud.
 
-Click the ✏️ (pencil) icon, make your changes, and commit them.
+---
 
-3. Use GitHub Codespaces (optional)
+## Tech Stack
 
-Go to your repository on GitHub.
-
-Click Code → Codespaces → New codespace.
-
-Edit and run the project in the cloud.
-
-Tech Stack
-
-This project is built with:
-
-Vite (bundler & dev server)
-
-React + TypeScript (frontend)
-
-Tailwind CSS (styling)
-
-shadcn-ui (UI components)
+- **Vite** (bundler & dev server)
+- **React + TypeScript** (frontend)
+- **Tailwind CSS** (styling)
+- **shadcn-ui** (UI components)
