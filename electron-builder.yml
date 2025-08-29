@@ -1,0 +1,42 @@
+appId: com.pow.cost.builder
+productName: Pow Cost Builder
+
+directories:
+  output: release
+  buildResources: build
+
+files:
+  - dist/**
+  - electron/**
+  - package.json
+
+asar: false
+
+win:
+  sign: false
+  target:
+    - target: nsis
+      arch:
+        - x64
+    - target: dir
+      arch:
+        - x64
+    - target: portable
+      arch:
+        - x64
+  artifactName: "${productName}-${version}-${arch}-${target}.${ext}"
+
+portable:
+  artifactName: "${productName}-${version}-${arch}-portable.exe"
+
+nsis:
+  oneClick: false
+  perMachine: false
+  allowToChangeInstallationDirectory: true
+  artifactName: "${productName}-${version}-Setup.${ext}"
+
+publish: null
+
+extraMetadata:
+  main: electron/main.cjs
+
