@@ -1,0 +1,4 @@
+root: C:\Users\junne\OneDrive\Desktop\pow-cost-builder-main 
+path: C:\Program Files\nodejs 
+arch: 64 
+proxy: none
